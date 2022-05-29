@@ -1,4 +1,3 @@
-import pastItems from "./pastItems.json";
 const puppeteer = require("puppeteer");
 const download = require("image-downloader");
 const db = require("./db");
