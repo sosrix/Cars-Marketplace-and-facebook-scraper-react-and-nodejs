@@ -1,0 +1,208 @@
+@import url("https://fonts.googleapis.com/css2?family=Sonsie+One&display=swap");
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.navbar {
+  margin-top: -10px;
+  margin-bottom: 110px;
+}
+.nav {
+  transition: all 0.1s linear;
+  position: fixed;
+  z-index: 2000;
+  padding: 7px;
+}
+.scrollNav {
+  transition: all 0.5s ease-in;
+  z-index: 2000;
+  background: #202020;
+  width: 100%;
+  border-bottom: 1px solid #181818;
+}
+.logo {
+  margin-left: 3rem;
+  width: 80px;
+}
+
+.Ti,
+.Ti:hover,
+.Ti:focus,
+.Ti:active {
+  font-family: "Sonsie One", cursive;
+  font-size: 1.6rem;
+  margin-left: 0.5rem;
+  text-decoration: none;
+  color: #878c89;
+}
+.HomeBody {
+  font-family: -apple-system, BlinkMacSystemFont, "Fira Sans", "Roboto",
+    "Oxygen", "Ubuntu", "Cantarell", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: transparent;
+  max-width: 80rem;
+  margin: auto;
+}
+.frontmessage {
+  margin-left: 5%;
+  margin-right: 5%;
+  color: #bfc3c1;
+  background-color: #1a1b1b;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.productPage {
+  background-color: #181818;
+  max-width: 80rem;
+  margin: auto;
+}
+.text-location {
+  color: whitesmoke;
+  font-size: small;
+}
+
+.Card {
+  margin: 0.5rem;
+}
+.productCard {
+  margin: 0.5rem;
+  background-color: transparent;
+}
+
+.productRow {
+  margin: 0;
+
+  background-color: transparent;
+}
+
+.Carousel {
+  max-width: 1090px;
+
+  margin: auto;
+  width: 100%;
+
+  padding: 10px;
+}
+
+.footer-center {
+  text-align: center;
+  align-items: baseline;
+  background: #121212;
+  width: 100%;
+  border-top: 1px solid #000;
+  color: beige;
+  padding: 10px;
+  margin: auto;
+  margin-top: 100px;
+}
+
+/* Container holding the image and the text */
+.imgcontainer {
+  position: relative;
+}
+
+.top-left {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  background-color: #202020;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: 200;
+  font-size: 18px;
+  line-height: 38px;
+  color: #e1e1e1;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 0px;
+  right: 16px;
+  color: #357c3c;
+  background-color: #202020;
+  padding-left: 7px;
+  padding-right: 7px;
+  border-radius: 10%;
+}
+
+.card-price {
+  display: inline-block;
+
+  width: auto;
+  height: 38px;
+
+  background-color: #6ab070;
+  -webkit-border-radius: 3px 4px 4px 3px;
+  -moz-border-radius: 3px 4px 4px 3px;
+  border-radius: 3px 4px 4px 3px;
+
+  border-left: 1px solid #6ab070;
+
+  /* This makes room for the triangle */
+  margin-left: 19px;
+
+  position: relative;
+
+  color: white;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 38px;
+
+  padding: 0 10px 0 10px;
+}
+
+/* Makes the triangle */
+.card-price:before {
+  content: "";
+  position: absolute;
+  display: block;
+  left: -19px;
+  width: 0;
+  height: 0;
+  border-top: 19px solid transparent;
+  border-bottom: 19px solid transparent;
+  border-right: 19px solid #6ab070;
+}
+
+/* Makes the circle */
+.card-price:after {
+  content: "";
+  background-color: white;
+  border-radius: 50%;
+  width: 4px;
+  height: 4px;
+  display: block;
+  position: absolute;
+  left: -9px;
+  top: 17px;
+}
+
+.search {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  width: 100%;
+  border: none;
+  background-color: #202428;
+
+  padding: 10px;
+  height: 40px;
+  border-radius: 5px 5px 5px 5px;
+  outline: none;
+  color: #7d827f;
+}
+
+.searchTerm:focus {
+  color: #c5ccc8;
+}
