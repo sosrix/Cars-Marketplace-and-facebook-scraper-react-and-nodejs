@@ -79,6 +79,7 @@ async function scrapeProduct(url) {
 let pastItems = [
   "PUT HERE THE ITEMS IDs YOU WANTO TO ADD TO ADD TO THE DATABASE",
   "you find it at pastItems json file",
+  "Scrape throw only 10 at a time",
 ];
 
 let counter = 0;
